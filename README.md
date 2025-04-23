@@ -41,3 +41,13 @@ A Windows-based Sudoku implementation featuring both a playable game and a solve
 - Grid size: 9x9
 - Cell size: 50x50 pixels
 - Uses backtracking algorithm for solving
+
+## Running the Program
+When you are first running the program do:
+`g++ <input file> -o <output file name> -lgdi32 -std=c++11`
+After the first time you can run it with just:
+`<output file name>`
+Example:
+`g++ sudoku.cpp -o sudoku -lgdi32 -std=c++11`
+and
+`sudoku`
